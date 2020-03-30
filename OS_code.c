@@ -86,7 +86,7 @@ void f1()
 				goto x;
 			}
 			else{Faculty[f_count].a_time= t-1000;}
-				printf(" ->Specify Burst time(in digits):\t"); 
+				printf(" ->Specify Burst time(in digits):\t\t"); 
 				scanf("%d", &Faculty[f_count].b_time);
 				printf("---------------------------------------------------------------------------------------------------------------------");	 
 				Faculty[f_count].btr = Faculty[f_count].b_time; 
@@ -116,7 +116,7 @@ void f1()
 				goto y;
 			}
 			else{Student[s_count].a_time= t-1000;}
-				printf(" ->Specify Burst time(in digits):\t"); 
+				printf(" ->Specify Burst time(in digits):\t\t"); 
 				scanf("%d", &Student[s_count].btr);	 
 				printf("---------------------------------------------------------------------------------------------------------------------");
 				Student[s_count].b_time = Student[s_count].btr; 
