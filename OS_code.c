@@ -57,6 +57,7 @@ void f1()
 	printf("\n");
 	for (i=0;i<n;i++)
 	{
+		p:
 		printf("\n ->Enter T/t if you are a Faculty or Enter S/s if you are a Student :  ");
 		scanf("\n");
 		scanf("%c",&ts);
@@ -122,7 +123,7 @@ void f1()
 				s_count++;
 				
 		}
-	
+		else { printf(" -> Wrong Choice ");  goto p;  }	
 	}
 	printf("\n\n ->Enter time quantum for round robin scheduling:\t");
 	scanf("%d",&quant_time);
