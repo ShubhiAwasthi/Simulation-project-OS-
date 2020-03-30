@@ -35,7 +35,7 @@ void *myThreadFun(void *vargp)
 	  sleep(1); 
 	  system("COLOR 47");
 	  sleep(1); 
-	  system("COLOR 70");
+	  system("COLOR 60");
 	  printf("\n\n\n\n\n\n\n\n\t\t\t                   (Press any key to continue)\n");
 	  printf("---------------------------------------------------------------------------------------------------------------------");
 	  getch();
