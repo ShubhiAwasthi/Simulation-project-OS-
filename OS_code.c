@@ -67,7 +67,7 @@ void f1()
 			printf("\n ------>Process ID of Faculty(specify in digit) :\t");
 			scanf("%d",&Faculty[f_count].p_id);
 			x:
-			printf("\n ->Specify Arrival time(in 24 hours format):\t"); 
+			printf("\n ->Specify Arrival time(in 24 hours  format):\t"); 
 			scanf("%d",&t);
 			if(t<1000 || t>1200){
 					printf("\n Query entry is alloted time between 10:00 to 12:00 \n");
